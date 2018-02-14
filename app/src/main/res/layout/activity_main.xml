@@ -15,7 +15,6 @@
         android:layout_centerVertical="true"
         android:width="300dp"
         android:background="@drawable/gradient"
-        android:fontFamily="casual"
         android:onClick="goToPayments"
         android:text="Zostań premium"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
