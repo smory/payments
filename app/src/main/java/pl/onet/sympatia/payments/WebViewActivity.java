@@ -40,7 +40,6 @@ public class WebViewActivity extends Activity {
             Log.v("Cookies: ", c.getCookie("https://payments.sympatia.onet.pl"));
         }
         webView.loadUrl(url);
-
     }
 
 }
