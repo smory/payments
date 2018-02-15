@@ -13,10 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:width="300dp"
+        android:width="250dp"
         android:background="@drawable/gradient"
         android:onClick="goToPayments"
         android:text="Zostań premium"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
 </RelativeLayout>
