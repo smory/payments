@@ -14,12 +14,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //must be called before setContentView(...)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            Window window = getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
-            window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
-        }
         setContentView(R.layout.activity_main);
     }
 

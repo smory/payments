@@ -4,6 +4,7 @@ package pl.onet.sympatia.payments;
  * Created by Rafał on 2018-02-14.
  */
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Build;
@@ -39,6 +40,8 @@ public class WebViewActivity extends Activity {
             c.setCookie("https://payments.sympatia.onet.pl", cookieString);
             Log.v("Cookies: ", c.getCookie("https://payments.sympatia.onet.pl"));
         }
+        ActionBar actionBar = (ActionBar)getApplicationContext().getSupportActionBar();
+
         webView.loadUrl(url);
     }
 
